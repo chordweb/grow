@@ -1,0 +1,102 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    flex-grow: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+aside {
+    width: 22vw;
+    background-color: rgba(213,94,0,0.2);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside h1 {
+    margin-top: 0px;
+    font-family: 'Dancing Script';
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+aside p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+}
+
+section h2 {
+    font-size: 4rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: -40px;
+}
+
+section input {
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+}
+
+section label {
+    font-size: 1.2rem;
+    display: none;
+}
+
+section p {
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
+
+section button {
+    padding: 20px;
+    background-color: #D55E00;
+    border-radius: 40px;
+    border: 1px solid #D55E00;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+
+section button:hover, section button:focus {
+    background-color: #703100;
+    transition-duration: 0.1s;
+    outline: none;
+}
+
+section textarea {
+    padding: 20px;
+    border-radius: 20px;
+    resize: none;
+    border: 1px solid #ccc;
+    height: 270px;
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    transition-duration: 0.1s;
+}
+
+section textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px #D55E00;
+    border-color: #D55E00;
+    transition-duration: 0.1s;
+}
